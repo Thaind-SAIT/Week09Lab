@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Week09Lab">
+  <Resource auth="Container" 
+            driverClassName="com.mysql.jdbc.Driver" 
+            logAbandoned="true" 
+            maxActive="100" maxIdle="30" maxWait="10000" 
+            name="jdbc/mydb" password="password" 
+            removeAbandoned="true" 
+            removeAbandonedTimeout="60" 
+            type="javax.sql.DataSource" 
+            url="jdbc:mysql://localhost:3305/mydb?autoReconnect=true" 
+            username="root"
+  />
+</Context>
